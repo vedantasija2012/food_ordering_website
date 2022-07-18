@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.heading{
+    font-family: 'Righteous', cursive;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+body{
+    background-color: aliceblue;
+}
+textarea{
+    display: block;
+    border: 2px solid black;
+    font-family: 'Secular One', sans-serif;
+}
+/* .footer{
+    display: inline;
+    font-family: 'Secular One', sans-serif;
+} */
+.contactMe:hover{
+    color: blue;
+}
+.uname input{
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    font-family: 'Secular One', sans-serif;
+}
+.uname h3:hover{
+    color: blue;
+}
+.uemail input{
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    font-family: 'Secular One', sans-serif;
+}
+.uemail h3:hover{
+    color: blue;
+}
+.unum input{
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    font-family: 'Secular One', sans-serif;
+}
+.unum h3:hover{
+    color: blue;
+}
+.uquery h3:hover{
+    color: blue;
+}
+.submitbtn{
+    padding: 10px 25px;
+    background-color: aliceblue;
+    color: blue;
+    border: 2px solid blue;
+}
+.submitbtn:hover{
+    background-color: blue;
+    color: white;
+}
+h1:hover{
+    color: red;
+}
+/* .footer{
+    background-color: black;
+    color: white;
+    height: 27vh;
+    list-style: none;
+  }
+  .footer ul li{
+    display: inline-flex;
+    padding: 10px 20px;
+  } */
+  /* .list{
+    margin-left: 433px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10vh;
+    width: 30vw;
+  } */
+  /* .footer ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+  }
+  .footer h5{
+    margin: 40px 20px;
+  } */
+@media screen and (max-width:786px){
+    .uquery textarea{
+        width: 60vw;
+    }
+    .uname input{
+        width: 60vw;
+    }
+    .uemail input{
+        width: 60vw;
+    }
+    .unum input{
+        width: 60vw;
+    }
+}

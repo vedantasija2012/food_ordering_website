@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    width: 99vw;
+}
+h1:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+@media screen and (max-width:640px) {
+    .navbar ul li{
+        padding: 0 16px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:536px) {
+    .navbar ul li{
+        padding: 0 12px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:504px) {
+    .navbar ul li{
+        padding: 0 9px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .navbar ul li{
+        padding: 0 5px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:448px) {
+    .navbar ul li{
+        padding: 0 2px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:424px) {
+    .navbar ul li{
+        padding: 0px;
+        font-size: 1rem;
+    }
+}
+
+.heading{
+    text-decoration: underline;
+    font-family: 'Righteous', cursive;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.all-services{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    height: 300px;
+    font-family: 'Patua One', cursive;
+}
+.service1{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(150, 253, 109);
+    color: rgb(96, 101, 246);
+    width: 20vw;
+    border-radius: 12px;
+    border: 2px solid black;
+    display: inline-block;
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    z-index: -1;
+}
+.service1 img{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.service2{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(150, 253, 109);
+    color: rgb(96, 101, 246);
+    width: 20vw;
+    border-radius: 12px;
+    border: 2px solid black;
+    display: inline-block;
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    z-index: -1;
+}
+.service2 img{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.service3{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(150, 253, 109);
+    color: rgb(96, 101, 246);
+    width: 20vw;
+    border-radius: 12px;
+    border: 2px solid black;
+    display: inline-block;
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    z-index: -1;
+}
+.service3 img{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.service4{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(150, 253, 109);
+    color: rgb(96, 101, 246);
+    width: 20vw;
+    border-radius: 12px;
+    border: 2px solid black;
+    display: inline-block;
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    z-index: -1;
+}
+.service4 img{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.service4 p{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.clients{
+    min-height: 100px;
+    height: 315px;
+    font-family: 'Patua One', cursive;
+}
+.clients .client{
+    display: inline-block;
+    min-height: 170px;
+    min-width: 160px;
+    position: relative;
+    z-index: -1;
+}
+.footer{
+    overflow: hidden;
+    font-family: 'Secular One', sans-serif;
+}
+@media screen and (max-width:936px){
+    .all-services{
+        min-height: 52vh;
+    }
+}
+@media screen and (max-width: 516px) {
+    .clients{
+        height: 168vh;
+    }
+    .client{
+        display: block;
+        margin: auto;
+    }
+    .all-services{
+        min-height: 102vh;
+    }
+    .service1{
+        margin-bottom: 5px;
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .service2{
+        margin-bottom: 5px;
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .service3{
+        margin-bottom: 5px;
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .service4{
+        margin-bottom: 5px;
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 858px){
+    .clients{
+        height: 57vh;
+    }
+}
+@media screen and (max-width: 694px){
+    .clients{
+        height: 77vh;
+    }
+}
+@media screen and (max-width: 528px){
+    .clients{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 494px){
+    .clients{
+        height: 85vh;
+    }
+}
+@media screen and (max-width: 326px){
+    .clients{
+        height: 168vh;
+    }
+}
+/* for navbar */

@@ -1,0 +1,94 @@
+<!-- This is not related to css course -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+</head>
+
+<body>
+    <style>
+        .header {
+            position: absolute;
+            background-color: blue;
+            height: 80px;
+            width: 100vw;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        ul li {
+            margin-top: 30px;
+            display: inline-flex;
+            font-size: 15px;
+            padding: 5px 20px;
+        }
+        /* :root{
+            --red:red;
+            --blue:blue;
+        } */
+
+        a {
+            /* color: var(--red); */
+            margin-left: 75px;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+
+        a:hover, a.active {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .container {
+            position: absolute;
+            cursor: pointer;
+            top: 10px;
+            left: 10px;
+        }
+
+        .cross-icon {
+            margin-left: 15px;
+            position: absolute;
+            top: 15px;
+        }
+
+        .navbarGO {
+            transform: translate(0px, -443px);
+            position: absolute;
+        }
+
+        @media (max-width:1200px) {
+            * {
+                background-color: rgb(255, 102, 102);
+            }
+        }
+
+    </style>
+    <div class="progress">
+
+    </div>
+    <header class="header navbarGO">
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- <div class="container">
+        <img src="/img/navbar-menu-icon.png" class="navbar-icon" alt="Error!" height="25px">
+        <img src="/img/cross-icon.png" class="cross-icon" alt="Error!" height="25px">
+    </div> -->
+</body>
+<!-- <script src="navbar.js"></script> -->
+
+</html>

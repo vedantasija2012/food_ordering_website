@@ -1,0 +1,129 @@
+.h-110{
+    height: 110px;
+}
+.h-130{
+    height: 130px;
+}
+.w-140{
+    width: 140px;
+}
+.w-130{
+    width: 130px;
+}
+.w-110{
+    width: 110px;
+}
+.w-101vw{
+    width: 101vw;
+}
+.m-0{
+    margin: 0px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.m-5{
+    margin: 5px;
+}
+.m-top-10{
+    margin-top: 10px;
+}
+.m-bottom-10{
+    margin-bottom: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.bolder{
+    font-weight: bolder;
+}
+.underline-text{
+    text-decoration: underline;
+}
+.none-decoration{
+    text-decoration: none;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-default{
+    cursor:default;
+}
+.flex{
+    display: flex;
+}
+.justify-spaces-in-between{
+    justify-content: space-between;
+}
+.justify-spaces-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-left{
+    justify-content:left;
+}
+.justify-content-right{
+    justify-content:right;
+}
+.align-items-center{
+    align-items: center;
+}
+.grid{
+    display: grid;
+}
+.self-content-center{
+    justify-self: center;
+}
+.display-block{
+    display: block;
+}
+.display-inline{
+    display: inline;
+}
+.addToCartBtn{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 7px;
+}
+.addToCartBtn:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+}
+.curve-border{
+    border-radius: 5px;
+}
+.black-border{
+    border: 2px solid black;
+}
+/* footer for website */
+.footer{
+    background-color: black;
+    color: white;
+    height: 27vh;
+    list-style: none;
+    overflow: hidden;
+    font-family: 'Secular One', sans-serif;
+  }
+.food-items{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+}

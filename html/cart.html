@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>My Cart</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar text-center flex" id="mynavbar">
+            <div class="left-intro flex justify-content-left">
+                <div class="logo"><img src="/img/food_delivery.png" alt="Error!"></div>
+                <div class="label"><a href="/index.html">Food Delivery</a></div>
+            </div>
+            <div id="mynavbar" class="mynavbar">
+                <ul>
+                    <li><a href="/html/services.html">Services</a></li>
+                    <li><a href="/html/menu.html">Menu</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                    <li><a href="/html/cart.html" class="fa fa-shopping-cart active" style="font-size:24px;"></a></li>
+                </ul>
+            </div>
+            <aside class="side-menu bolder text-center flex" id="side-menu">
+                <a href="#" class="fa fa-map-marker your-address"></a>
+                <div class="sidebar cursor-default">
+                    <!-- <input type="text" id="address" class="fas fa-map-marker your-address" placeholder="Enter your Address"> -->
+                    <!-- address div where user will enter address -->
+                    <div id="address"></div>
+                    <a href="#myorders" class="none-decoration text-center">View Your Orders</a>
+                </div>
+            </aside>
+            <!-- <a class="fa fa-shopping-cart" style="font-size:24px"></a> -->
+        </nav>
+    </header>
+    <h1 class="my-cart text-center cursor-default underline-text m-bottom-10 m-top-10" id="cart-tittle">My Cart</h1>
+    <div class="seperator flex justify-content-center"></div>
+    <!-- <h3 class="text-center">Your cart is empty!</h3> -->
+    <div class="cart">
+        <div class="cart-content flex justify-content-center">
+            <div class="cart-box">
+                <img src="/img/Chicken-Biryani.jpeg" alt="..." height="80px">
+                <div class="detail-box grid">
+                    <div class="cart-product-tittle text-capitalize">chicken Biryani</div>
+                    <div class="cart-price bold">₹350</div>
+                    <input type="number" value="1" class="cart-quantity text-center">
+                    <i class="material-icons cart-remove cursor-pointer">delete</i>
+                </div>
+                <img class="cursor-pointer" src="/img/aloo_kulcha.jpg" height="65px" alt="Error!">
+                <div class="detail-box grid">
+                    <div class="cart-product-tittle text-capitalize">Aloo pyaz kulcha</div>
+                    <div class="cart-price bold">₹40</div>
+                    <input type="number" value="1" class="cart-quantity text-center">
+                    <i class="material-icons cart-remove cursor-pointer">delete</i>
+                </div>
+            </div>
+        </div>
+        <div class="total flex">
+            <!-- <div class="total-tittle"></div>
+            <div class="total-price">₹0</div> -->
+            <div class="checkout">
+                <p id="total-tittle">Total Items: 2</p>
+                <h3 style="padding: 10px 0px;" id="total-price">Subtotal: ₹ 390</h3>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="clrbtn" id="clrbtn">Clear Cart</button>
+            <button class="place-order" id="place-order">Place Order</button>
+        </div>
+    </div>
+    <div class="seperator text-center m-top-10"></div>
+    <!-- <h4 class="min-order p-10 cursor-default text-center">Free Delivery on orders above ₹ 350</h4> -->
+    <footer class="footer">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="list text-center">
+            <h4>Get in touch</h4>
+            <ul>
+                <li><a href="#" class="fa fa-google none-decoration"></a></li>
+                <li><a href="https://www.linkedin.com/in/vedant-asija-b8b05a1b8"
+                        class="fa fa-linkedin none-decoration"></a>
+                </li>
+                <li><a href="https://www.instagram.com/vedantasija.exe" class="fa fa-instagram none-decoration"
+                        target="_blank"></a></li>
+                <li><a href="https://www.github.com/vedantasija2012" class="fa fa-github none-decoration"
+                        target="_blank"></a></li>
+            </ul>
+        </div>
+        <h5 class="text-center">Copyright &copy; Vedant Asija Food Delivery Website</h5> <br>
+    </footer>
+</body>
+<script src="/js/cart.js"></script>
+<script src="/js/index.js" type="module"></script>
+
+</html>

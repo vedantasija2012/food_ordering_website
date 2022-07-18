@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar text-center flex" id="mynavbar">
+            <div class="left-intro flex justify-content-left">
+                <div class="logo"><img src="/img/food_delivery.png" alt="Error!"></div>
+                <div class="label"><a href="/index.html">Food Delivery</a></div>
+            </div>
+            <div id="mynavbar" class="mynavbar">
+                <ul>
+                    <li><a href="/html/services.html">Services</a></li>
+                    <li><a href="/html/menu.html">Menu</a></li>
+                    <li><a href="/html/contact.html" class="active">Contact</a></li>
+                    <li><a href="/html/cart.html" class="fa fa-shopping-cart" style="font-size:24px;"></a></li>
+                </ul>
+            </div>
+            <!-- <a class="fa fa-shopping-cart" style="font-size:24px"></a> -->
+        </nav>
+    </header>
+    <div class="main" style="font-family: 'Secular One', sans-serif;">
+        <div class="heading text-center cursor-default">
+            <h1 class="contactMe">Contact Me!</h1>
+        </div>
+        <div class="uname cursor-default m-5">
+            <h3>Your Name: </h3>
+            <input class="addTxt" type="text" name="sname" placeholder="Enter your Name" id="uname">
+        </div>
+        <div class="uemail cursor-default m-5">
+            <h3>Your Email: </h3>
+            <input class="addTxt" type="email" name="semail" placeholder="Enter your Email ID" id="uemail">
+        </div>
+        <div class="unum cursor-default m-5">
+            <h3>Your Contact Number: </h3>
+            <input class="addTxt" type="text" name="snumber" placeholder="Enter your Number" id="unumber">
+        </div> <br>
+        <div class="uquery cursor-default m-5">
+            <h3>Please Share Your Query:</h3>
+            <textarea name="explain" id="query" cols="80" rows="10" placeholder="Describe your Query!"></textarea>
+            <button id="submitbtn" class="submitbtn cursor-pointer m-5">Submit</button>
+        </div>
+    </div>
+    <div class="dataDisp" id="dataDisp">
+        <h1 class="cursor-default" style="font-size: 1.2rem;">Your Query: <span>Ask Query</span></h1>
+    </div>
+    <footer class="footer">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="list text-center">
+            <h4>Get in touch</h4>
+            <ul>
+                <li><a href="#" class="fa fa-google none-decoration"></a></li>
+                <li><a href="https://www.linkedin.com/in/vedant-asija-b8b05a1b8"
+                        class="fa fa-linkedin none-decoration"></a>
+                </li>
+                <li><a href="https://www.instagram.com/vedantasija.exe" class="fa fa-instagram none-decoration"
+                        target="_blank"></a></li>
+                <li><a href="https://www.github.com/vedantasija2012" class="fa fa-github none-decoration"
+                        target="_blank"></a></li>
+            </ul>
+        </div>
+        <h5 class="text-center">Copyright &copy; Vedant Asija Food Delivery Website</h5> <br>
+    </footer>
+</body>
+<script src="/js/contact.js"></script>
+
+</html>

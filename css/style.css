@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patua+One&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.food-time{
+    width: 100%;
+    height: auto;
+    background: url('/img/bg.jpg') repeat-x center;
+    /* background: url('/img/bg.jpg') no-repeat center center/cover; */
+    opacity: 0.8;
+    overflow: hidden;
+    display: block;
+}
+@media screen and (max-width:434px) {
+    .food-time{
+        height: 55vh;
+    }
+}
+@media screen and (max-width:392px) {
+    .food-time{
+        height: 60vh;
+    }
+}
+.welcomeMSG{
+    color: white;
+    margin: 15px 10px;
+    font-size: 1.1rem;
+}
+.welcomeMSG p{
+    padding: 10px 5px;
+}
+.orderNowBtn{
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+.orderNowBtn:hover{
+    background-color: white;
+    color: red;
+}
+.h-primary{
+    padding: 100px 10px 10px 10px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Secular One', sans-serif;
+}
+.h-primary:hover{
+    color: white;
+    font-weight: bold;
+}
+.logo img{
+    width: 35px;
+}
+.label{
+    padding: 6px 10px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+}
+.label a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 9vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 98, 98);
+    color: white;
+    align-items: center;
+}
+.navbar ul {
+    text-align: center;
+}
+.navbar ul li {
+    display: inline;
+    font-size: 1.2rem;
+    padding: 0px 25px;
+}
+.navbar ul li a{
+    padding: 0 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+@media screen and (max-width:634px) {
+    .navbar ul li{
+        padding: 0 20px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:564px) {
+    .navbar ul li{
+        padding: 0 16px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:532px) {
+    .navbar ul li{
+        padding: 0 12px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .navbar ul li{
+        padding: 0 8px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:456px) {
+    .navbar ul li{
+        padding: 0 4px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:468px){
+    .navbar ul li{
+        padding: 0 1px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:412px) and (min-width:390px){
+    .navbar ul li{
+        padding: 0px;
+        font-size: 0.8rem;
+    }
+}
+.navbar ul li a:hover,.navbar a.active{
+    text-decoration: underline;
+    color: black;
+}
+.info{
+    height: 23vh;
+    width: 100%;
+    background-color: rgb(126, 119, 254);
+    font-family: 'Concert One', cursive;
+}
+.orderType{
+    background-color: rgb(187, 235, 255);
+    height: 100px;
+    width: 180px;
+    font-size: 1.2rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin-top: 12px;
+}
+@media screen and (max-width:378px) {
+    .info{
+        height: 34vh;
+    }
+}
+.orderType:hover{
+    color: blue;
+}
+.food-hunt{
+    margin-bottom: 15px;
+    height: 64vh;
+}
+.special-food{
+    margin-bottom: 15px;
+    height: 60vh;
+}
+.footer{
+    margin-top: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+.hunt{
+    width: 220px;
+    height: 280px;
+    border: 2px solid rgb(111, 111, 255);
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    margin-top: 12px;
+}
+.hunt .like:hover{
+    color: red;
+}
+.hunt .like:active{
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+}
+.hunt:hover{
+    background-color: rgb(111, 111, 255);
+    transform: translateY(-10px);
+    color: white;
+}
+.rating{
+    font-size: 15px;
+}
+.like{
+    font-size: 25px;
+}
+.addToCart{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    background-color: white;
+    color: red;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    list-style: none;
+  }
+  .footer ul li{
+    display: inline-flex;
+    padding: 10px 20px;
+  }
+  .list{
+    height: 5vh;
+    width: 100%;
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+  }
+  .footer h5{
+    margin: 40px 20px;
+  }
+
+@media screen and (max-width:906px) {
+    .food-hunt{
+        height: 80vh;
+    }
+}
+@media screen and (max-width:810px) {
+    .special-food{
+        height: 44vh;
+    }
+}
+@media screen and (max-width:450px) {
+    .food-hunt{
+        height: 155vh;
+    }
+    .special-food{
+        height: 82vh;
+    }
+}
+@media screen and (max-width:360px) {
+    .food-hunt{
+        height: 157vh;
+    }
+    .special-food{
+        height: 80vh;
+    }
+}

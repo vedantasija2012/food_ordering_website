@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&family=Patua+One&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: -8px;
+}
+.veg{
+    height: 10px;
+    margin: 0;
+}
+.non-veg{
+    height: 10px;
+    margin: 0;
+}
+nav img{
+    border: none;
+}
+.seperator{
+    height: 2px;
+    background-color: gold;
+    width: 65vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 16vw;
+    z-index: -1;
+}
+.items{
+    margin-bottom: 15px;
+    border: 3px solid rgb(50, 197, 50);
+    background-color: rgb(178, 255, 178);
+    width: 180px;
+    height: 270px;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative;
+}
+.items:hover{
+    /* background-color: rgb(50, 197, 50); */
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+.items .like:hover{
+    color: red;
+}
+.items .addToCart:hover{
+    border: 3px solid red;
+    background-color: aqua;
+    color: black;
+}
+.items img{
+    /* border-radius: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.addToCart{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: rgb(50, 197, 50);
+    border: 2px solid rgb(50, 197, 50);
+    border-radius: 7px;
+}
+.addToCart:hover{
+    padding: 10px 15px;
+    transition: 0.6s;
+    background-color: rgb(50, 197, 50);
+    color: white;
+    font-weight: bolder;
+    border: 2px solid red;
+}
+#dosa{
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.north-indian-veg{
+    margin-bottom: 15px;
+    border: 3px solid rgb(50, 197, 50);
+    background-color: rgb(178, 255, 178);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.north-indian-nv{
+    margin-bottom: 15px;
+    border: 3px solid rgb(232, 41, 41);
+    background-color: rgb(255, 142, 142);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.breads{
+    margin-bottom: 15px;
+    border: 3px solid rgb(41, 54, 232);
+    background-color: rgb(142, 157, 255);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.south-indian{
+    margin-bottom: 15px;
+    border: 3px solid rgb(232, 41, 219);
+    background-color: rgb(251, 142, 255);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.chinese{
+    margin-bottom: 15px;
+    border: 3px solid rgb(41, 187, 232);
+    background-color: rgb(142, 238, 255);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.chinese #addToCart:hover{
+    background-color: blue;
+    color: white;
+}
+.thai{
+    margin-bottom: 15px;
+    border: 3px solid rgb(232, 223, 41);
+    background-color: rgb(247, 255, 142);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.fast-food{
+    margin-bottom: 15px;
+    border: 3px solid rgb(152, 41, 232);
+    background-color: rgb(200, 142, 255);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.drinks{
+    margin-bottom: 15px;
+    border: 3px solid rgb(41, 232, 47);
+    background-color: rgb(142, 255, 167);
+    min-width: 180px;
+    min-height: 270px;
+    border-radius: 7px;
+}
+.rating{
+    font-size: 25px;
+    color: gold;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.rating:hover{
+    font-weight: bolder;
+}
+.like{
+    font-size: 25px;
+}
+.like:hover{
+    color: black;
+    font-weight: bolder;
+}
+.food-description{
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+.food-description p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+h1:hover{
+    color:red;
+}
+.footer{
+    margin-top: 10px;
+}
